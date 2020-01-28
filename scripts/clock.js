@@ -12,7 +12,6 @@ function getTime() {
 }
 
 function init() {
-    console.log("clock.js running")
     getTime();
     setInterval(getTime, 1000);
 }

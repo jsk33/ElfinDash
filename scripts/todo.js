@@ -60,7 +60,6 @@ function loadToDos() {
 }
 
 function init() {
-    console.log("todo.js is running");
     loadToDos();
     todoForm.addEventListener("submit", handleSubmit);
 }

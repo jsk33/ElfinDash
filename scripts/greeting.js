@@ -38,7 +38,6 @@ function loadName() {
 }
 
 function init() {
-    console.log("greeting.js is running");
     loadName();
 }
 
