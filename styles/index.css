@@ -28,3 +28,32 @@ body {
     z-index: -1;
     animation: fadeIn 0.5s linear;
 }
+
+.center {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+#first {
+    width: 50%;
+    float: left;
+}
+#second {
+    width: 50%;
+    float: left;
+}
+#clear {
+    clear: both;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

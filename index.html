@@ -7,23 +7,33 @@
     </head>
 
     <body>
-        <div class="clock-js">
-            <h1>00:00</h1>
+        <div class="container">
+            <div id="first">
+                <div class="clock-js">
+                    <h1 class="center" style="font-size:100px">00:00</h1>
+                </div>
+        
+                <h3 class="weather-js center" style="font-size: 20px"></h3>
+        
+                <form class="form-js form center">
+                    <input type="text" placeholder="What is your name">
+                </form>
+                <h4 class="greeting-js greeting center" style="font-size: 50px"></h4>
+            </div>
+
+            <div id="second">
+                <form class="todoForm-js center">
+                    <input type="text" placeholder="What do you need to do">
+                </form>
+                <ul class="todoList-js" style="list-style-type: none">
+                    <!--populate with todos-->
+                </ul>
+            </div>
         </div>
+        
 
-        <form class="form-js form">
-            <input type="text" placeholder="What is your name">
-        </form>
-        <h4 class="greeting-js greeting"></h4>
+        
 
-        <form class="todoForm-js">
-            <input type="text" placeholder="What do you need to do">
-        </form>
-        <ul class="todoList-js">
-            
-        </ul>
-
-        <span class="weather-js"></span>
     </body>
 
     <script src="scripts/clock.js"></script>

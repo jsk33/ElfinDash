@@ -28,10 +28,12 @@ function paintTodo(text) {
 
     deleteButton.innerText = "❌";
     deleteButton.addEventListener("click", deleteTodo);
-    span.innerText = text;
+    deleteButton.classList.add("deleteButton");
+    span.innerText = text + " ";
     li.appendChild(span);
     li.appendChild(deleteButton);
     li.id = newID;
+    li.classList.add("center");
     todoList.appendChild(li);
     const todoObject = {
         text: text,
